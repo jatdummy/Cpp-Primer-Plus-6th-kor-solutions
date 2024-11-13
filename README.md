@@ -7,14 +7,14 @@
 
 함수 관련 코드 스타일은 다음과 같습니다. 들여쓰기는 tab키를 사용합니다.
 
-type my_function(datatype data);
+    type my_function(datatype data);
 
-int main(void){
-    my_function(data);
-    ...
-    return 0;
-}
+    int main(void){
+        my_function(data);
+        ...
+        return 0;
+    }
 
-type my_function(datatype data){
-  ...
-}
+    type my_function(datatype data){
+      ...
+    }
